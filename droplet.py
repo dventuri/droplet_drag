@@ -72,7 +72,6 @@ class Droplet:
                 )
             )
         elif (self.__Rep < 1000):
-
             Cd_2 = 17*(self.__Rep**(-2/3))
 
             if (self.__gamma < 2):
