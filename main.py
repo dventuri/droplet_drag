@@ -27,5 +27,6 @@ list_Cd_FM = calc_drag_coefficient_list(
 
 plt.style.use("fivethirtyeight")
 fig, ax = plt.subplots()
-ax.plot(list_Rep, list_Cd_SN)
-ax.plot(list_Rep, list_Cd_FM)
+ax.plot(list_Rep, list_Cd_SN, label="Schiller e Naumman")
+ax.plot(list_Rep, list_Cd_FM, label="Feng e Michaelides")
+ax.legend()
